@@ -17,7 +17,7 @@ export default function VotingContainer({ handleAlert }: { handleAlert: Function
 
   if (hasVoted === false) {
     return (
-      <div className="bg-gradient-to-b from-fe-gradient-light to-fe-gradient-dark w-[340px] md:w-[400px] h-[400px] rounded-[30px] shadow-md p-10 flex flex-col justify-between">
+      <div className="bg-gradient-to-b from-fe-gradient-light to-fe-gradient-dark w-[325px] sm:w-[400px] h-[400px] rounded-[30px] shadow-md p-10 flex flex-col justify-between">
         <div className="h-[45px] w-[45px] bg-fe-dark-blue shadow-md flex items-center justify-center rounded-full">
           <img src="../public/icon-star.svg" alt="Star icon" className='h-[18px] w-[18px]'/>
         </div>
@@ -34,7 +34,7 @@ export default function VotingContainer({ handleAlert }: { handleAlert: Function
     )
   } else {
     return (
-      <div className="bg-gradient-to-b from-fe-gradient-light to-fe-gradient-dark w-[340px] md:w-[400px] h-[400px] rounded-[30px] shadow-md p-10 flex flex-col justify-between items-center">
+      <div className="bg-gradient-to-b from-fe-gradient-light to-fe-gradient-dark w-[325px] sm:w-[400px] h-[400px] rounded-[30px] shadow-md p-10 flex flex-col justify-between items-center">
       <div className="flex justify-center">
         <img src="../public/illustration-thank-you.svg" alt="Star icon" className=''/>
       </div>

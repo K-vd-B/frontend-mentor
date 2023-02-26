@@ -4,13 +4,13 @@ export default function VotingRatingButton({ number, selected, onClick }: { numb
   
     if (selected) {
         return (
-          <button className="h-12 w-12 bg-fe-medium-grey shadow-md rounded-full hover:bg-fe-orange hover:text-fe-white transition-all text-fe-dark-blue" onClick={() => onClick(number)}>
+          <button className="h-10 sm:h-12 w-10 sm:w-12 bg-fe-medium-grey shadow-md rounded-full hover:bg-fe-orange hover:text-fe-white transition-all text-fe-dark-blue" onClick={() => onClick(number)}>
             {number}
           </button>
         );
     } else {
         return (
-          <button className="h-12 w-12 bg-fe-dark-blue shadow-md rounded-full hover:bg-fe-orange hover:text-fe-white transition-all text-fe-medium-grey" onClick={() => onClick(number)}>
+          <button className="h-10 sm:h-12 w-10 sm:w-12 bg-fe-dark-blue shadow-md rounded-full hover:bg-fe-orange hover:text-fe-white transition-all text-fe-medium-grey" onClick={() => onClick(number)}>
             {number}
           </button>
         )
