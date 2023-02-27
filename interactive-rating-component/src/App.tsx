@@ -1,26 +1,17 @@
-import React, { useState } from "react";
+import { useContext } from "react";
 import VotingContainer from "./components/VotingContainer";
 import AlertContainer from "./components/AlertContainer";
+import { VotingContext } from "./contexts/VotingContext";
 
-function App() {
+export default function App() {
 
-  const[alertMessage, setAlertMessage] = useState('');
-
-  const handleAlert = (message: string) => {
-    setAlertMessage(message);
-
-    setTimeout(() => {
-      setAlertMessage('');
-    }, 5000);
-  }
-
-  return (
-    <div className="min-h-screen min-w-screen bg-fe-very-dark-blue flex justify-center items-center">
-      <VotingContainer handleAlert={handleAlert}/>
-      {alertMessage && <AlertContainer message={alertMessage}/>}
-    </div>
-
-  )
+    const votingContext = useContext(VotingContext);
+    
+    return (
+        <div className="min-h-screen min-w-screen bg-fe-very-dark-blue flex justify-center 
+                        items-center">
+          <VotingContainer />
+          {votingContext?.votingAlertMessage && <AlertContainer />}
+        </div>
+    )
 }
-
-export default App

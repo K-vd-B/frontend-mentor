@@ -1,15 +1,19 @@
-import React, { Dispatch, SetStateAction } from 'react';
+import { useContext } from 'react';
+import { VotingContext } from '../contexts/VotingContext';
 import VotingRatingButton from './VotingRatingButton';
 
-export default function ({ rating, onClick } : { rating: number, onClick: Dispatch<SetStateAction<number>> }) {
+
+export default function () {
+
+    const votingContext = useContext(VotingContext);
 
     const possibleRatings = [1, 2, 3, 4, 5];
 
     const ratingButtons = possibleRatings.map(possibleRating => {
-        if (possibleRating === rating) {
-            return <VotingRatingButton key={possibleRating} number={possibleRating} selected={true} onClick={onClick}/>
+        if (possibleRating === votingContext?.rating) {
+            return <VotingRatingButton key={possibleRating} number={possibleRating} selected={true} />
         } else {
-            return <VotingRatingButton key={possibleRating} number={possibleRating} selected={false} onClick={onClick}/>
+            return <VotingRatingButton key={possibleRating} number={possibleRating} selected={false} />
         }              
     });
 
