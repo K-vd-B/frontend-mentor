@@ -11,7 +11,7 @@ export default function VotingContainer() {
     return (
       <div className="bg-gradient-to-b from-fe-gradient-light to-fe-gradient-dark w-[325px] sm:w-[400px] h-[400px] rounded-[30px] shadow-md p-10 flex flex-col justify-between">
         <div className="h-[45px] w-[45px] bg-fe-dark-blue shadow-md flex items-center justify-center rounded-full">
-          <img src="../public/icon-star.svg" alt="Star icon" className='h-[18px] w-[18px]'/>
+          <img src="/icon-star.svg" alt="Star icon" className='h-[18px] w-[18px]'/>
         </div>
         <h1 className="text-2xl text-fe-white font-bold tracking-[1px] mt-2">
           How did we do?
@@ -28,7 +28,7 @@ export default function VotingContainer() {
     return (
       <div className="bg-gradient-to-b from-fe-gradient-light to-fe-gradient-dark w-[325px] sm:w-[400px] h-[400px] rounded-[30px] shadow-md p-10 flex flex-col justify-between items-center">
       <div className="flex justify-center">
-        <img src="../public/illustration-thank-you.svg" alt="Star icon" className=''/>
+        <img src="illustration-thank-you.svg" alt="Star icon" className=''/>
       </div>
       <div className="text-[15px] h-9 w-52 text-center rounded-full bg-fe-dark-blue shadow-md flex items-end justify-center p-1.5">
         <p className="text-fe-orange">
