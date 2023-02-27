@@ -18,7 +18,7 @@ export default function () {
     });
 
     return (
-      <div className="flex justify-between">
+      <div className="flex justify-between w-full">
         {ratingButtons} 
       </div>
     )
