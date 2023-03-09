@@ -39,7 +39,3 @@ html {
 .button-hover-animation:hover {
     background-color: hsl(176, 68%, 64%);
 }
-
-.hero-line-height {
-    line-height: 10rem;
-}
