@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'xsm': '450px',
+      },
       colors: {
         'fe-dark-blue-1': 'hsl(217, 28%, 15%)',
         'fe-dark-blue-2': 'hsl(217, 28%, 13%)',

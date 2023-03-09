@@ -7,3 +7,26 @@
 html {
     background-color: hsl(217, 28%, 15%);
 }
+
+.menu-hover-animation {
+    display: inline-block;
+    position: relative;
+}
+
+.menu-hover-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 4px;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+}
+
+.menu-hover-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
