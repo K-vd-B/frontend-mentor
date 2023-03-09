@@ -21,7 +21,7 @@ html {
     height: 1px;
     bottom: 4px;
     left: 0;
-    background-color: white;
+    background: linear-gradient(90deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
     transform-origin: bottom right;
     transition: transform 0.3s ease-out;
 }
