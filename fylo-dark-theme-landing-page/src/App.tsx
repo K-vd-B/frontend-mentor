@@ -1,3 +1,4 @@
+import Footer from './components/Footer';
 import GetAccessSection from './components/GetAccessSection';
 import GridSection from './components/GridSection';
 import Header from './components/Header';
@@ -15,6 +16,7 @@ function App() {
       <InfoSection />
       <QuotesSection />
       <GetAccessSection />
+      <Footer />
     </>
   );
 }
