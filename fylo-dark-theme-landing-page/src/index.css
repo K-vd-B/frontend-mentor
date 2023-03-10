@@ -46,3 +46,7 @@ html {
     background-repeat: no-repeat;
     background-size: max(100vw, 1440px) 24rem;
 }
+
+.get-access-section-bg {
+    background-image: linear-gradient(180deg, hsl(217, 28%, 13%) 50%, hsl(216, 53%, 9%) 50%)
+}

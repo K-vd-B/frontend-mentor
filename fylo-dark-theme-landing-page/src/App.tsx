@@ -1,3 +1,4 @@
+import GetAccessSection from './components/GetAccessSection';
 import GridSection from './components/GridSection';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
@@ -11,6 +12,7 @@ function App() {
       <HeroSection />
       <GridSection />
       <QuotesSection />
+      <GetAccessSection />
     </>
   );
 }

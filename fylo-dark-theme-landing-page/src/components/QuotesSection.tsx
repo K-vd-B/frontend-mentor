@@ -2,7 +2,7 @@ import QuoteCard from './QuoteCard';
 
 export default function QuotesSection() {
   return (
-    <section className="bg-fe-dark-blue-2 text-white pb-24 px-4 xsm:px-8 sm:px-12">
+    <section className="bg-fe-dark-blue-2 text-white pb-40 px-4 xsm:px-8 sm:px-12">
         <div className="grid grid-cols-1 md:grid-cols-3 justify-items-center max-w-7xl gap-10 mx-auto">
 
             <div className="relative">
