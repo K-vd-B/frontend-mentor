@@ -39,3 +39,10 @@ html {
 .button-hover-animation:hover {
     background-color: hsl(176, 68%, 64%);
 }
+
+.hero-section-wave {
+    background-image: url("bg-curvy-desktop.svg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: max(100vw, 1440px) 24rem;
+}
