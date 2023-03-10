@@ -2,7 +2,7 @@ export default function InfoSection() {
   return (
     <section className="bg-fe-dark-blue-2 flex flex-wrap gap-20 justify-center mx-auto px-4 xsm:px-8 sm:px-12 pt-20 pb-40">
         <div className="flex flex-wrap lg:flex-nowrap justify-center gap-5 max-w-7xl">
-            <img src="illustration-stay-productive.png" alt="" />
+            <img src="illustration-stay-productive.png" alt="An illustration that shows people collaborating from different places." />
             <div className="flex flex-col justify-center items-center lg:items-start text-white text-center lg:text-left flex-1 px-4 xsm:px-8 sm:px-12">
                 <h2 className="font-raleway font-bold text-4xl max-w-xs mb-5 mt-10 lg:mt-0">
                     Stay productive, wherever you are
