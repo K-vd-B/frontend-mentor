@@ -41,7 +41,7 @@ html {
 }
 
 .hero-section-wave {
-    background-image: url("bg-curvy-desktop.svg");
+    background-image: url("../public/bg-curvy-desktop.svg");
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: max(100vw, 1440px) 24rem;
