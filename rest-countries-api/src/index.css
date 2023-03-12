@@ -4,6 +4,22 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+* {
     font-family: 'Nunito Sans';
+}
+
+.dark-theme-on {
+    background-color: hsl(207, 26%, 17%);
+    color: #fff;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.dark-theme-off {
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(200, 15%, 8%);
+    transition: background-color 0.5s ease-in-out;
+}
+
+.theme-transition-effect {
+    transition: all 0.5s ease-in-out;
 }

@@ -42,5 +42,5 @@ export default function ThemeContextProvider({children}: {children: ReactNode | 
         <ThemeContext.Provider value={{darkTheme, changeTheme}}>
                 {children}
         </ThemeContext.Provider>
-    )
+    );
 }
