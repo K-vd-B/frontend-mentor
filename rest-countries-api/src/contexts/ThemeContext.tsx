@@ -35,13 +35,12 @@ export default function ThemeContextProvider({children}: {children: ReactNode | 
 
     useEffect(() => {
         localStorage.setItem('countriesAPI.dark-theme', darkTheme.toString());
+        document.body.setAttribute('class', darkTheme === true ? 'dark dark-theme-on' : 'light dark-theme-off');
     }, [darkTheme]);
 
     return (
         <ThemeContext.Provider value={{darkTheme, changeTheme}}>
-            <div className={darkTheme === true ? 'dark' : 'light'}>
                 {children}
-            </div>
         </ThemeContext.Provider>
     )
 }
