@@ -15,9 +15,9 @@ module.exports = {
         'fe-light-mode-bg': 'hsl(0, 0%, 98%)',
         'fe-light-mode-elements': 'hsl(0, 0%, 100%)',
       },
-      fonts: {
-        'fe-nunito-sans': ['"Nunito Sans"'],
-      }
+      fontFamily: {
+        'fe-nunito-sans': ['"Nunito Sans"']
+      },
     },
   },
   plugins: [],
