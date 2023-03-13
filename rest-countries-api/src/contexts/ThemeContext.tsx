@@ -28,7 +28,6 @@ export default function ThemeContextProvider({children}: {children: ReactNode | 
 
     const [darkTheme, setDarkTheme] = useState(() => getPreference())
     
-    console.log(darkTheme);
     const changeTheme = () => {
         setDarkTheme(!darkTheme);
     }
